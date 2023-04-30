@@ -1,0 +1,43 @@
+html {
+    background: url(../assets/blur40.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*the next two lines are used for android support*/
+    height: 100%;
+    overflow: hidden;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Permanent Marker', cursive;
+    color: #fff;
+    text-shadow: #8e8e8e 1px 1px;
+}
+
+.hero {
+    position: absolute;
+    top: 50%;
+}
+
+a {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c5c5c5 !important;
+}
+
+@media (max-width: 359px) {
+    ul {
+        font-size: 1rem;
+    }
+}
+@media (min-width: 360px) {
+    ul {
+        font-size: 1.8rem;
+    }
+}
+
+
